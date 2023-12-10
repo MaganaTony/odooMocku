@@ -295,4 +295,68 @@ $card-color: darken($background-color, 45); //#616161;
     }  
 }
 
+.fourthBlock{
+    .fourthBlockBtn{
+        border-radius: 30px;
+        background-color: rgb(245, 188, 0);
+        color: white;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .btnAppStore{
+        border-radius: 7px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 130px;
+        height: 45px;
+        font-size: 10px;
+        text-align: center;
+        i{
+            position: relative;
+            top: 8px;
+            margin-right: 10px;
+        }
+    }
+    .btnPlayStore{
+        border-radius: 7px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 130px;
+        height: 45px;
+        font-size: 10px;
+        text-align: center;
+        i{
+            position: relative;
+            top: 8px;
+            margin-right: 10px;
+        }
+    }
+}
 
+.fifthBlock{
+    .fifthBlock_container{
+        background-color:#281152;
+        height: 12vh;
+        width: 70vw;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-left: 10%;
+        .textBlock{
+            h6{
+                color: white;
+                font-size: 17px;
+            }
+            p{
+                color: white;
+                font-size: 10px;
+            }
+        }
+        .LearnMoreBtn{
+            position: relative;
+            left: 150px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    }
+}
