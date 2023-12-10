@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(0, 140, 255);
   padding: 0;
@@ -86,8 +92,8 @@ main .creditcard, main .cards .face {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 12.5VH;
-  width: 33VW;
+  height: 5%;
+  width: 155%;
 }
 main .cards .face .head {
   display: flex;
@@ -318,4 +324,61 @@ main .creditCardExpiry, main .cardName {
   left: 150px;
   border-radius: 5px;
   padding: 5px;
+}
+
+.lowerSection {
+  background-color: rgb(247, 247, 247);
+}
+.lowerSection .headerText {
+  position: relative;
+  left: 50px;
+  margin-bottom: 80px;
+}
+.lowerSection .headerText .awardsButton {
+  color: white;
+  width: 70px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 30px;
+}
+.lowerSection .airbnbIMGcardEND {
+  width: 8vh;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+.lowerSection .airbnbRatingEND {
+  font-size: 13px;
+}
+.lowerSection .airbnbReviewsEND {
+  font-size: 11px;
+  opacity: 0.5;
+  position: relative;
+  top: -8px;
+}
+.lowerSection .amazonIMGcard {
+  width: 8vh;
+  position: relative;
+  top: 5px;
+  left: 25px;
+}
+.lowerSection .amazonText {
+  font-size: 13px;
+}
+.lowerSection .learnMoreEND {
+  position: relative;
+  top: -10px;
+  left: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  color: black;
+}
+.lowerSection .cards #card2 {
+  position: relative;
+  bottom: 30px;
+}
+.lowerSection .cards #card4 {
+  position: relative;
+  bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
