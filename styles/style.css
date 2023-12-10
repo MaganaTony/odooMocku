@@ -4,98 +4,81 @@ body {
   margin: 0;
 }
 
-.header {
+.navbarr .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
 }
-
-ul {
+.navbarr ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   list-style-type: none;
 }
-
-li {
+.navbarr li {
   margin-left: 30px;
   color: white;
   font-size: 15px;
   margin-top: 4px;
 }
-
-.navbarlink {
+.navbarr .navbarlink {
   text-decoration: none;
   color: white;
 }
-
-.logo {
+.navbarr .logo {
   width: 60px;
 }
-
-.sub1 {
+.navbarr .sub1 {
   flex-grow: 3;
   margin-left: 20px;
 }
-
-.sub2 {
+.navbarr .sub2 {
   flex-grow: 7;
 }
 
-.getstartedbtn {
+main .getstartedbtn {
   font-weight: bold;
 }
-
-.cover {
+main .cover {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.grid {
+main .grid {
   display: grid;
 }
-
-.grid-center {
+main .grid-center {
   place-items: center;
 }
-
-.text-black {
+main .text-black {
   color: black;
 }
-
-h6, p {
+main h6, main p {
   color: black;
 }
-
-.viewall {
+main .viewall {
   color: rgb(0, 128, 255);
   font-size: 15px;
   text-decoration-style: dashed;
 }
-
-.trustedIMG {
+main .trustedIMG {
   width: 15%;
 }
-
-.trustedSectionText {
+main .trustedSectionText {
   font-size: 12px;
 }
-
-#mainCard {
+main #mainCard {
   border-radius: 10px;
   border-bottom-right-radius: 60px;
 }
-
-.wrapper {
+main .wrapper {
   height: 200px;
   width: 200px;
 }
-
-.creditcard, .cards .face {
+main .creditcard, main .cards .face {
   background: #281152;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
@@ -106,43 +89,173 @@ h6, p {
   height: 12.5VH;
   width: 33VW;
 }
-
-.cards .face .head {
+main .cards .face .head {
   display: flex;
   justify-content: space-between;
   margin: 16px 16px 0 16px;
 }
-.cards .face .head .cardTitle {
+main .cards .face .head .cardTitle {
   font-weight: 200;
   font-size: 15px;
 }
-.cards .face .main {
+main .cards .face .main {
   margin: 16px 16px 0 16px;
 }
-.cards .face .main .number-title {
+main .cards .face .main .number-title {
   color: #cccccc;
 }
-.cards .face .main .number {
+main .cards .face .main .number {
   font-size: 24px;
 }
-.cards .face .dates {
+main .cards .face .dates {
   display: flex;
   max-width: 100px;
   justify-content: space-between;
   margin: 16px 16px 16px 16px;
 }
-
-.activeBtnCard {
+main .activeBtnCard {
   border-radius: 5px;
   background-color: rgb(50, 205, 179);
   color: white;
 }
-
-.creditCardExpiry, .cardName {
+main .creditCardExpiry, main .cardName {
   opacity: 0.5;
   font-size: x-small;
 }
 
 .middleSection {
   background-color: white;
+}
+.middleSection .firstBlockCard {
+  width: 80%;
+}
+.middleSection .firstblockP {
+  font-size: 12px;
+}
+.middleSection .firstBlockIMG {
+  width: 60%;
+  border-radius: 10px;
+  position: relative;
+  top: -300px;
+  right: -160px;
+}
+.middleSection .firstBlockBtn {
+  position: relative;
+  top: -370px;
+  right: -50px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.middleSection .firstBlockBtnTools {
+  color: white;
+  border-radius: 30px;
+}
+.middleSection .secondBlockIMG {
+  width: 85%;
+  border-radius: 10px;
+}
+.middleSection .secondBlockBtn {
+  border-radius: 30px;
+  background-color: rgb(50, 205, 179);
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+}
+.middleSection .secondBlockVideoBtn {
+  position: relative;
+  top: -280px;
+  right: -17px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.middleSection .firstBlock {
+  margin-top: 70px;
+}
+
+.leftCards .JMCircle {
+  background-color: sandybrown;
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  margin-top: -4px;
+  color: white;
+}
+.leftCards .JMCircle p {
+  font-size: 15px;
+  margin-top: 2px;
+}
+.leftCards .JMtext, .leftCards .JMtext2 {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 13px;
+  width: 70%;
+}
+.leftCards .greenCircle {
+  background-color: rgb(50, 205, 179);
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+}
+.leftCards .JMtextMini {
+  font-size: 11px;
+}
+.leftCards .JMtext2 {
+  margin-top: 6px;
+  font-size: 13px;
+}
+.leftCards .JMheart2 {
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+.rightCards .airbnbIMGcard {
+  width: 7vh;
+  height: 10vh;
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+.rightCards .airbnbRating {
+  font-size: 14px;
+}
+.rightCards .airbnbReviews {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.rightCards .companyIMGCard {
+  border-radius: 100px;
+  width: 50px;
+  position: relative;
+  top: 20px;
+  left: 55px;
+}
+.rightCards .companyText {
+  font-size: 13px;
+}
+.rightCards .profileAvatars img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+.rightCards .profileAvatars .avatar1 {
+  position: relative;
+  left: 18px;
+}
+.rightCards .profileAvatars .avatar2 {
+  position: relative;
+  left: 8x;
+}
+.rightCards .profileAvatars .avatar3 {
+  position: relative;
+  right: 18px;
+}
+
+.thirdBlock .thirdBlockBtnTools {
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
