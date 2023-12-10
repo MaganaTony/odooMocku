@@ -2,6 +2,43 @@ body {
   background-color: rgb(0, 128, 255);
 }
 
-.nav-link {
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 30px;
   color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 30px;
+  width: 55px;
+}
+
+.sub1 {
+  flex-grow: 3;
+  margin-left: 20px;
+}
+
+.sub2 {
+  flex-grow: 7;
 }/*# sourceMappingURL=style.css.map */
