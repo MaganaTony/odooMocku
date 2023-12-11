@@ -40,13 +40,6 @@ header {
 .navbarr .logo {
   width: 60px;
 }
-.navbarr .sub1 {
-  flex-grow: 3;
-  margin-left: 20px;
-}
-.navbarr .sub2 {
-  flex-grow: 7;
-}
 
 main .heroSection {
   height: 35vh;
