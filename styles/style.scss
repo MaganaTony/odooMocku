@@ -550,6 +550,10 @@ main {
 }
 
 .accordionSection {
+    .firstAccordion,.secondAccordion {
+    max-width: 600px; /* Adjust the value based on your design */
+    margin: 0 auto; /* Center the accordions */
+}
     background-color: white;
     .firstAccordion{
         .accordion-button::after{
@@ -575,10 +579,11 @@ main {
         }
         button{
             border-radius: 5px;
-            width: 15vw;
-            height: 3vh;
+            width: 120px;
+            height: 40px;
         }
     }
+
 }
 
 footer{
