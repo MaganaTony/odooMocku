@@ -185,6 +185,9 @@ main .cardName {
   height: 80%;
   border-radius: 10px;
 }
+.middleSection .secondBlock .max-width-50 {
+  max-width: 35%;
+}
 .middleSection .secondBlockBtn {
   border-radius: 30px;
   background-color: rgb(50, 205, 179);
@@ -333,11 +336,14 @@ main .cardName {
 
 .fifthBlock .fifthBlock_container {
   background-color: #281152;
-  height: 12vh;
-  width: 70vw;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  margin-left: 10%;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fifthBlock .fifthBlock_container .textBlock {
+  padding-left: 50px;
 }
 .fifthBlock .fifthBlock_container .textBlock h6 {
   color: white;
@@ -349,7 +355,8 @@ main .cardName {
 }
 .fifthBlock .fifthBlock_container .LearnMoreBtn {
   position: relative;
-  left: 150px;
+  left: 120px;
+  bottom: 30px;
   border-radius: 5px;
   padding: 5px;
 }
