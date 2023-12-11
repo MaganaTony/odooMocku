@@ -58,6 +58,10 @@ body {
 }
 
 main {
+    .heroSection{
+        height: 40vh;
+        background-image: linear-gradient(176deg, #188dfa 90%, #ffffff calc(90% + 2px)) 
+    }
     .getstartedbtn {
         font-weight: bold;
     }
