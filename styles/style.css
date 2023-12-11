@@ -366,7 +366,7 @@ main .cardName {
 }
 .lowerSection .headerText {
   position: relative;
-  left: 50px;
+  left: 10px;
   margin-bottom: 80px;
 }
 .lowerSection .headerText .awardsButton {
@@ -461,12 +461,12 @@ main .cardName {
 footer {
   background-color: #281152;
 }
+footer .footerOne {
+  display: flex;
+  justify-content: center;
+}
 footer .footerOne h3, footer .footerOne p {
   color: white;
-}
-footer .footerOne .buttonsOne {
-  position: relative;
-  left: 90px;
 }
 footer .footerTwo .logoOdoo {
   width: 80px;
