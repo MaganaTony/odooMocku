@@ -429,13 +429,13 @@ main {
         background-color: #281152;
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
-        max-width: 60vw;
+        width: 40rem;
         margin-left: auto;
         margin-right: auto;
     
 
         .textBlock {
-            padding-left: 50px;
+            
             h6 {
                 color: white;
                 font-size: 17px;
@@ -447,12 +447,14 @@ main {
             }
         }
 
-        .LearnMoreBtn {
-            position: relative;
-            left: 120px;
-            bottom: 30px;
+        .LearnMoreBtn {           
             border-radius: 5px;
-            padding: 5px;
+            width: 100px;
+            height: 30px;
+            top: 50%;
+            right: 3%;
+            transform: translateX(-50%);
+            font-size: small;
 
         }
     }
