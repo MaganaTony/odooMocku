@@ -244,7 +244,8 @@ main .cardName {
   height: 50px;
   position: relative;
   top: 10px;
-  left: 30px;
+  left: 47px;
+  margin-top: 10px;
 }
 .rightCards .airbnbRating {
   font-size: 14px;
@@ -258,7 +259,8 @@ main .cardName {
   width: 50px;
   position: relative;
   top: 20px;
-  left: 55px;
+  left: 70px;
+  margin-bottom: 8px;
 }
 .rightCards .companyText {
   font-size: 13px;
@@ -329,24 +331,29 @@ main .cardName {
 
 .fifthBlock .fifthBlock_container {
   background-color: #281152;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  width: 40rem;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 50rem;
+  height: 12.5rem;
   margin-left: auto;
   margin-right: auto;
 }
+.fifthBlock .fifthBlock_container .textBlock {
+  margin-top: 2%;
+  margin-left: 5%;
+}
 .fifthBlock .fifthBlock_container .textBlock h6 {
   color: white;
-  font-size: 17px;
+  font-size: 20px;
 }
 .fifthBlock .fifthBlock_container .textBlock p {
   color: white;
-  font-size: 10px;
+  font-size: 13px;
 }
 .fifthBlock .fifthBlock_container .LearnMoreBtn {
   border-radius: 5px;
-  width: 100px;
-  height: 30px;
+  width: 8rem;
+  height: 2.5rem;
   top: 50%;
   right: 3%;
   transform: translateX(-50%);
