@@ -585,16 +585,15 @@ main {
 }
 
 footer{
-    
-    background-color: #281152;
+    background-image: linear-gradient(358deg, #281152 92%, #ffffff calc(92% + 2px));
+
     .footerOne{
         display: flex;
         justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
         h3, p{
             color: white;
-        }
-        .buttonsOne{
-    
         }
     }
     .footerTwo{
