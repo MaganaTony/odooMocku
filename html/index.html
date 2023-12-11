@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <!-- Start for header -->
+  <header>
+    <div class="navbarr container-lg">
+      <div class="header border-bottom border-secondary border-1 px-5">
+        <div class="sub1">
+          <img src="/img/odoo-white.svg" alt="" class="logo">
+        </div>
+        <div class="sub2">
+          <ul>
+            <li><a class="navbarlink" href="">Home</a></li>
+            <li><a class="navbarlink" href="">Products</a></li>
+            <li><a class="navbarlink" href="">Pages</a></li>
+            <li><a class="navbarlink" href="">App</a></li>
+            <li><a class="navbarlink" href="">Docs</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="navbarlink me-2">Sign in</a>
+          <button class="btn btn-light btn-sm"><i class="fa-solid fa-bag-shopping"></i> Buy now</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Start for main -->
+  <main class="mt-5">
+    <!-- Start for hero -->
+    <div class="row p-5">
+      <div class="col-7">
+        <h1 class="fw-bold text-light pt-5">Development <br> done right</h1>
+        <p class="mt-3 text-light pt-3">Build a beautiful, modern website with <br> flexible components built from
+          scratch.</p>
+        <div class="mt-5">
+          <button class="getstartedbtn btn btn-light btn-lg me-3">Get started &nbsp; +</button>
+        </div>
+        <div class="trustedSection mt-4 pt-4">
+          <p class="trustedSectionText text-light">Trusted by:
+            <img class="trustedIMG mx-2" src="/img/google-white.svg" alt="">
+            <img class="trustedIMG mx-2" src="/img/spotify-white.svg" alt="">
+            <img class="trustedIMG mx-2" src="/img/airbnb-white.svg" alt="">
+            <img class="trustedIMG mx-2" src="/img/paypal-white.svg" alt="">
+          </p>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card box-shadow bg-dark-primary text-white" id="mainCard">
+          <div class="card-top d-flex p-3 pt-4">
+            <h6>Manage cards</h6><span class="ms-auto"></span>
+            <button class="btn btn-light btn-sm border border-3 px-3">Add new</button>
+          </div>
+          <div class="card-header ">
+            <div class="wrapper">
+              <div class="cards">
+                <div class="face">
+                  <div class="head">
+                    <img src="/img/mastercard.svg" alt="">
+                    <div class="cardTitle">
+                      <button class="activeBtnCard">Active</button>
+                    </div>
+
+                  </div>
+                  <div class="main d-f">
+                    <div class="number-title">Card number:</div>
+                    <div class="number">4358 - 7421 - 9256 - 6682
+                    </div>
+                  </div>
+                  <div class="additionalInfo d-flex  mb-3">
+                    <div class="cardHolder d-flex flex-column ms-3 me-5">
+                      <div class="cardName">
+                        NAME
+                      </div>
+                      <div class="end">
+                        John Snow
+                      </div>
+                    </div>
+                    <div class="cardDates d-flex flex-column ms-5">
+                      <div class="creditCardExpiry">
+                        EXPIRY DATE
+                      </div>
+                      <div class="end">
+                        11/23
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="d-flex">
+              <h6>Starbucks</h6><span class="ms-auto"></span>
+              <h6>$5,50 USD</h6>
+            </div>
+            <p class="border-bottom border-1 border-secondary" style="--bs-border-opacity: .5;">Pending - San
+              Francisco, United States</p>
+            <div class="d-flex">
+              <h6>Nike Sports</h6><span class="ms-auto"></span>
+              <h6>$129,00 USD</h6>
+            </div>
+            <p class="border-bottom border-1 border-secondary" style="--bs-border-opacity: .5;">Pending - Lisbon, Portugal</p>
+            <a class="viewall" href="#">View all ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start for second section-->
+    <section class="middleSection mt-5 p-5 h-100">
+      <div class="firstBlock">
+        <div class="row p-3">
+          <div class="col-6">
+            <div class="firstBlockCard card">
+              <div class="card-body">
+                <div class="d-flex">
+                  <h6 class="fw-bold">Awesome projects</h6>
+                </div>
+                <p class="firstblockP mt-3 mb-4 fw-bold" style="--bs-border-opacity: .5;">Create the new logo</p>
+                <div class="progress" role="progressbar" aria-label="Basic example " aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100" style="height: 3px">
+                  <div class="progress-bar bg-warning" style="width: 45%"></div>
+                </div>
+                <p class="firstblockP mt-3 mb-4 fw-bold" style="--bs-border-opacity: .5;">Set up the color palette</p>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100" style="height: 3px">
+                  <div class="progress-bar bg-warning" style="width: 60%"></div>
+                </div>
+                <p class="firstblockP mt-3 mb-4 fw-bold" style="--bs-border-opacity: .5;">Wireframe and prototype</p>
+                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100" style="height: 3px">
+                  <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+            <img src="/img/img_01.jpg" alt="firstBlockIMG" class="firstBlockIMG">
+            <button type="button" class=" firstBlockBtn btn btn-light">Play video &nbsp;<i
+                class="fa-solid fa-play"></i></button>
+          </div>
+          <div class="col-6">
+            <button type="button" class="firstBlockBtnTools btn btn-warning">Tools</button>
+            <h2 class="fw-semibold mt-3 lh-base">We build for designers and <br> developers</h2>
+            <p class="mt-4">Get components and examples, including tons of <br> variables that will help you grow your
+              business.</p>
+          </div>
+        </div>
+      </div>
+      <div class="secondBlock mb-5 pb-5">
+        <div class="row p-3">
+          <div class="col-6">
+            <button type="button" class="secondBlockBtn btn">Features</button>
+            <h6 class="fw-semibold mt-3 lh-base">Get components and examples, including <br> tons of variables that will
+              help
+              you grow your <br> business.</h4>
+              <img src="/img/greencheckbox.svg" alt="greencheckbox" style="width: 50%;">
+          </div>
+          <div class="col-6">
+            <img src="/img/img_02.jpg" alt="secondBlockIMG" class="secondBlockIMG">
+            <button type="button" class="secondBlockVideoBtn btn btn-light">Play video &nbsp;<i
+                class="fa-solid fa-play"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="thirdBlock mt-5 pt-5">
+        <div class="row p-3">
+          <div class="col-6 d-flex">
+            <div class="leftCards">
+              <div class="card mt-4 me-2" style="width: 13rem; height: 16rem;">
+                <img src="/img/person_03.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body d-flex">
+                  <div class="JMCircle">
+                    <p class="JMCircleText text-light text-center">JM</p>
+                  </div>
+                  <p class="JMtext card-text fw-semibold">Jimmy Hendrix</p>
+                  <i class="JMheart fa-regular fa-heart"></i>
+                </div>
+              </div>
+              <div class="card mt-3" style="width: 13rem; height: 4rem;">
+                <div class="card-body d-flex">
+                  <div class="greenCircle">
+                    <p class="text-light text-center fs-5"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+                  </div>
+                  <p class="JMtext2 card-text fw-semibold">300+ components</p>
+                  <p class="d-none">Built to be customized</p>
+                  <i class="JMheart2 fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <div class="rightCards">
+              <div class="card" style="width: 10rem; height: 11rem;">
+                <img src="/img/airbnb.svg" class="airbnbIMGcard p-2 pt-3" alt="...">
+                <div class="card-body">
+                  <img src="/img/rating.svg" alt="" class="p-2">
+                  <p class="airbnbRating card-text fw-semibold text-center">4.95 out of 5 stars </p>
+                  <p class="airbnbReviews text-center fw-light">from 23 reviews</p>
+                </div>
+              </div>
+              <div class="card" style="width: 10rem; height: 13rem;">
+                <img src="/img/company_01.png" class="companyIMGCard" alt="...">
+                <div class="card-body">
+                  <p class="companyText card-text fw-bold text-center mt-2">Website UI Kit </p>
+                  <div class="profileAvatars pb-2">
+                    <img src="/img/person_01.jpg" alt="" class="avatar1">
+                    <img src="/img/person_02.jpg" alt="" class="avatar2">
+                    <img src="/img/person_03.jpg" alt="" class="avatar3">
+                  </div>
+                  <div class="avatarIcons text-center d-flex justify-content-evenly pt-3 border-top">
+                    <i class="fa-solid fa-paperclip" style="color: #5c5c5c;"></i>
+                    <i class="fa-regular fa-eye" style="color: #6f7071;"></i>
+                    <i class="fa-regular fa-heart" style="color: #6a6b6c;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <button type="button" class="thirdBlockBtnTools btn btn-primary">Technology</button>
+            <h2 class="fw-semibold mt-3 lh-base">We use the latest <br> technologies on the market</h2>
+            <p class="mt-4">Get components and examples, including tons of <br> variables that will help you grow your
+              business.</p>
+            <a href="#" class="link-offset-3 fw-semibold">See case studies</a>
+          </div>
+        </div>
+      </div>
+      <div class="fourthBlock mt-5 pt-5">
+        <div class="row p-3">
+          <div class="col-6">
+            <button type="button" class="fourthBlockBtn btn">Easy to install</button>
+            <h3 class="fw-semibold mt-3 lh-base">Download, install and run.</h3>
+            <p class="mt-4">Get components and examples, including tons of <br> variables that will help you grow your
+              business.</p>
+            <div class="downloadButtons">
+              <button type="button" class="btnAppStore fw-semibold"><i class="fa-brands fa-apple fa-xl"
+                  style="color: #ffffff;"></i>Download on the <br>App Store</button>
+              <button type="button" class="btnPlayStore fw-semibold"><i class="fa-brands fa-google-play fa-xl"
+                  style="color: #ffffff;"></i>Download on the <br>Play Store</button>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="/img/img_03.jpg" alt="secondBlockIMG" class="secondBlockIMG">
+            <button type="button" class="secondBlockVideoBtn btn btn-light">Play video &nbsp;<i
+                class="fa-solid fa-play"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="fifthBlock mt-5 pt-">
+        <div class="fifthBlock_container row">
+          <div class="textBlock col-6 pt-5 ps-5">
+            <h6>Infinite solutions</h6>
+            <p>Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into
+              incredible products.</p>
+          </div>
+          <div class="col-6 mt-5 pt-3">
+            <button class="LearnMoreBtn px-3">Learn more &nbsp; <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start for lower section -->
+    <section class="lowerSection pt-5 pb-5">
+      <div class="containerLower">
+        <div class="headerText ">
+          <button class="awardsButton btn btn-primary mb-3 text-center">Awards</button>
+          <h6>Awards for design, creativity, and innovation on the Internet</h6>
+        </div>
+        <div class="cards d-flex justify-content-end">
+          <div class="card mx-2" style="width: 10rem; height: 11rem;" id="card1">
+            <img src="/img/airbnb.svg" class="airbnbIMGcardEND p-2 pt-3" alt="...">
+            <div class="card-body">
+              <img src="/img/rating.svg" alt="" class="p-1">
+              <p class="airbnbRatingEND card-text fw-semibold text-center">4.95 out of 5 stars </p>
+              <p class="airbnbReviewsEND text-center fw-light">from 23 reviews</p>
+            </div>
+          </div>
+          <div class="card mx-2" style="width: 10rem; height: 11rem;" id="card2">
+            <img src="/img/amazon.svg" class="amazonIMGcard p-2 pt-3" alt="...">
+            <div class="card-body">
+              <p class="amazonText card-text text-center fw-light">They build modern-looking websites easily using Tabs.</p>
+              <a href="#" class="learnMoreEND link-offset-3 fw-semibold">Learn more</a>
+            </div>
+          </div>
+          <div class="card mx-2" style="width: 10rem; height: 11rem;" id="card3">
+            <img src="/img/slack.svg" class="amazonIMGcard p-2 pt-3" alt="...">
+            <div class="card-body">
+              <p class="amazonText card-text text-center fw-light">They build modern-looking websites easily using Trello.</p>
+              <a href="#" class="learnMoreEND link-offset-3 fw-semibold">Learn more</a>
+            </div>
+          </div>
+          <div class="card mx-2" style="width: 10rem; height: 11rem;" id="card4">
+            <img src="/img/spotify.svg" class="amazonIMGcard p-2 pt-3" alt="...">
+            <div class="card-body">
+              <img src="/img/rating.svg" alt="" class="p-1">
+              <p class="airbnbRatingEND card-text fw-semibold text-center">4.95 out of 5 stars </p>
+              <p class="airbnbReviewsEND text-center fw-light">from 23 reviews</p>
+            </div>
+          </div>
+          <div class="card mx-2" style="width: 10rem; height: 11rem;" id="card5">
+            <img src="/img/paypal.svg" class="amazonIMGcard p-2 pt-3" alt="...">
+            <div class="card-body">
+              <p class="amazonText card-text text-center fw-light">They build modern-looking websites easily using Docker.</p>
+              <a href="#" class="learnMoreEND link-offset-3 fw-semibold">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start for accordion -->
+    <section class="accordionSection">
+      <div class="accordionText text-center pt-5">
+        <h3>Helpful Answers</h3>
+        <h6 class="fw-light pt-2">Start building fast, beautiful, and modern-looking websites in no time.
+        </h6>
+      </div>
+      <div class="row p-5">
+        <div class="col firstAccordion">
+          <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item border border-secondary rounded border-opacity-25">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="fa-regular fa-file me-3" style="color: #000000;"></i>Which license do I need?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item border border-secondary mt-2 rounded border-opacity-25">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <i class="fa-solid fa-lock me-3" style="color: #000000;"></i>How do I get access to my database?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item border border-secondary mt-2 rounded border-opacity-25" >
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <i class="fa-regular fa-folder me-3" style="color: #000000;"></i>How do I see previous orders?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col secondAccordion">
+          <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item border border-secondary rounded border-opacity-25">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="fa-regular fa-file me-3" style="color: #000000;"></i>Which license do I need?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item border border-secondary mt-2 rounded border-opacity-25">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <i class="fa-solid fa-lock me-3" style="color: #000000;"></i>How do I get access to my database?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item border border-secondary mt-2 rounded border-opacity-25" >
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <i class="fa-regular fa-folder me-3" style="color: #000000;"></i>How do I see previous orders?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordionSecondText text-center pt-4 pb-5">
+        <h3>I want to start a new project</h3>
+        <button class="btn btn-primary me-3">Buy now &nbsp; <i class="fa-solid fa-arrow-right fa-xs" style="color: #ffffff;"></i></button>
+        <button class="btn btn-light">Learn more</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Start for footer -->
+  <footer>
+    <div class="footerOne row p-5 border-bottom border-opacity-25 border-secondary">
+      <div class="textOne col">
+        <h3>Brilliant solutions for your ideas</h3>
+        <p>Modern looking websites.</p>
+      </div>
+      <div class="buttonsOne col">
+        <button class="btn btn-light me-2"><i class="fa-solid fa-book" style="color: #0456fb;"></i> &nbsp; Documentation </button>
+        <button class="btn btn-primary">Purchase now</button>
+      </div>
+    </div>
+    <div class="footerTwo p-5 border-bottom border-opacity-25 border-secondary">
+      <div class="row">
+        <div class="col-5">
+          <img src="/img/odoo-white.svg" alt="logo" class="logoOdoo mb-4">
+          <p>Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
+          <i class="fa-solid fa-globe me-3" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-github me-3" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-instagram me-3" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-facebook me-3" style="color: #ffffff;"></i>
+        </div>
+        <div class="col-7 d-flex" id="footerLinks">
+          <div>
+            <h6>Account</h6>
+            <ul>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Billing</a></li>
+              <li><a href="#">Notifications</a></li>
+            </ul>
+          </div>
+          <div>
+            <h6>About</h6>
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div>
+            <h6>Company</h6>
+            <ul>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footerThree row pt-5 px-5">
+      <div class="col ms-5">
+        <p>© Odoo. All rights reserved</p>
+      </div>
+      <div class="col">
+        <ul class="list-group list-group-horizontal">
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
